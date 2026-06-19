@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Yogubeth - Calidad y Sabor Natural</title> 
+
+<style>
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f4f8ff;
+    color:#333;
+}
+
+header{
+    background:linear-gradient(135deg,#003c7d,#007bff);
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.logo{
+    font-size:4rem;
+    font-weight:bold;
+}
+
+.slogan{
+    font-size:1.2rem;
+    margin-top:10px;
+}
+
+nav{
+    background:#002f63;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:0 20px;
+    font-weight:bold;
+}
+
+.hero{
+    text-align:center;
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:3rem;
+    color:#003c7d;
+    margin-bottom:20px;
+}
+
+.hero p{
+    max-width:800px;
+    margin:auto;
+    font-size:1.1rem;
+    line-height:1.8;
+}
+
+.section{
+    padding:70px 10%;
+}
+
+.titulo{
+    text-align:center;
+    color:#003c7d;
+    margin-bottom:40px;
+    font-size:2.5rem;
+}
+
+.productos{
+    display:flex;
+    gap:30px;
+    justify-content:center;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:320px;
+    border-radius:20px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.15);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:25px;
+}
+
+.card h3{
+    color:#003c7d;
+    margin-bottom:10px;
+}
+
+.card p{
+    line-height:1.6;
+}
+
+.beneficios{
+    background:#003c7d;
+    color:white;
+}
+
+.lista-beneficios{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:25px;
+    margin-top:40px;
+}
+
+.beneficio{
+    background:rgba(255,255,255,.1);
+    padding:25px;
+    border-radius:15px;
+}
+
+.contacto{
+    text-align:center;
+}
+
+.contacto p{
+    margin:10px;
+    font-size:1.1rem;
+}
+
+footer{
+    background:#002f63;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">Yogubeth</div>
+    <p class="slogan">Pequeños momentos, grandes sabores</p>
+</header>
+
+<nav>
+    <a href="nosotros.html">Nosotros</a>
+    <a href="productos.html">Productos</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="contacto.html">Contacto</a>
+</nav>
+
+<section class="hero">
+    <h1>Descubre el sabor artesanal de Soacha</h1>
+    <p>
+        Yogubeth es una empresa orgullosamente soachuna dedicada a la elaboración
+        de yogurt natural y artesanal. Utilizamos ingredientes frescos y de alta
+        calidad para ofrecer un producto delicioso, nutritivo y saludable para
+        toda la familia.
+    </p>
+</section>
+
+<section class="section" id="productos">
+    <h2 class="titulo">Nuestros Productos insignia</h2>
+
+    <div class="productos">
+
+        <div class="card">
+            <img src="imagen.png" alt="">
+            <div class="card-content">
+                <h3>🍓 Yogubeth Fresa</h3>
+                <p>
+                    Delicioso yogurt artesanal con auténtico sabor a fresa.
+                    Cremoso, refrescante y lleno de nutrientes.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image (3).png" alt="">
+            <div class="card-content">
+                <h3>🥑 Yogubeth Aguacate</h3>
+                <p>
+                    Nuestro sabor innovador. Cremoso, natural y rico en nutrientes.
+                    Una experiencia única que debes probar.
+                </p>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="image (2).png" alt="">
+            <div class="card-content">
+                <h3>🫐 Yogubeth Mora</h3>
+                <p>
+                    Elaborado con mora seleccionada para brindar un sabor intenso,
+                    dulce y natural.
+                </p>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="section beneficios" id="beneficios">
+
+    <h2 class="titulo" style="color:white;">
+        Beneficios que te hacen bien
+    </h2>
+
+    <div class="lista-beneficios">
+
+        <div class="beneficio">
+            <h3>🌿 Ingredientes Naturales</h3>
+            <p>Sin conservantes artificiales.</p>
+        </div>
+
+        <div class="beneficio">
+            <h3>🦠 Fuente de Probióticos</h3>
+            <p>Favorece la salud digestiva.</p>
+        </div>
+
+        <div class="beneficio">
+            <h3>💪 Nutritivo y Saludable</h3>
+            <p>Ideal para acompañar tu día.</p>
+        </div>
+
+        <div class="beneficio">
+            <h3>⚡ Fuente de Energía</h3>
+            <p>Perfecto para toda la familia.</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="section contacto" id="contacto">
+
+    <h2 class="titulo">Contáctanos</h2>
+
+    <p>📞 312 356 5556</p>
+    <p>📷 @yogubeth_oficial</p>
+    <p>📧 contacto@yogubethnatural.com</p>
+    <p>📍 Soacha, Cundinamarca - Colombia</p>
+
+    <br>
+
+    <h3>Tamaño Disponible</h3>
+    <p><strong>200 ml (Mediano)</strong></p>
+
+</section>
+
+<footer>
+    © 2026 Yogubeth | Calidad y sabor natural
+</footer>
+
+</body>
+</html>

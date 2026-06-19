@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosotros | Yogubeth</title>
+
+    <link rel="stylesheet" href="css/nosotros.css">
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI', sans-serif;
+}
+
+body{
+    background:#f2f5fa;
+    color:#333;
+}
+
+header{
+    background:#003c7d;
+    color:white;
+    text-align:center;
+    padding:50px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:10px;
+}
+
+header p{
+    font-size:1.1rem;
+}
+
+main{
+    max-width:1200px;
+    margin:auto;
+    padding:50px 20px;
+}
+
+.seccion{
+    margin-bottom:60px;
+}
+
+.seccion h2{
+    color:#003c7d;
+    margin-bottom:20px;
+    font-size:2rem;
+}
+
+.seccion p{
+    line-height:1.8;
+    text-align:justify;
+}
+
+.tarjetas{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:25px;
+    margin-top:30px;
+}
+
+.tarjeta{
+    background:white;
+    width:250px;
+    padding:25px;
+    text-align:center;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    transition:0.4s;
+    cursor:pointer;
+}
+
+.tarjeta:hover{
+    transform:translateY(-10px);
+}
+
+.foto{
+    width:150px;
+    height:150px;
+    object-fit:cover;
+    border-radius:50%;
+    margin-bottom:15px;
+
+    opacity:0;
+    transform:scale(0.6);
+
+    transition:0.5s;
+}
+
+.tarjeta:hover .foto{
+    opacity:1;
+    transform:scale(1);
+}
+
+.tarjeta h3{
+    color:#003c7d;
+    margin-bottom:10px;
+}
+
+.tarjeta p{
+    text-align:center;
+}
+
+.contenedor-boton{
+    text-align:center;
+    margin-top:50px;
+}
+
+.boton{
+    background:#003c7d;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+    transition:0.3s;
+}
+
+.boton:hover{
+    background:#0057b8;
+}
+
+@media(max-width:768px){
+
+    header h1{
+        font-size:2rem;
+    }
+
+    .tarjeta{
+        width:100%;
+        max-width:300px;
+    }
+
+}
+.logos-container{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    flex-wrap:wrap;
+    margin-top:30px;
+}
+
+.logo-card{
+    background:white;
+    padding:25px;
+    border-radius:20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.4s;
+}
+
+.logo-card:hover{
+    transform:translateY(-8px);
+}
+
+.logo-card img{
+    width:250px;
+    height:auto;
+    object-fit:contain;
+}
+
+.logo-card h3{
+    margin-top:15px;
+    color:#003c7d;
+}
+
+</style>
+
+<body>
+
+    <header>
+        <h1>Sobre Nosotros</h1>
+        <p>Conoce la historia detrás de Yogubeth</p>
+    </header>
+
+    <main>
+
+        <section class="seccion">
+
+            <h2>¿Quiénes Somos?</h2>
+
+            <p>
+                Yogubeth es una micro, pequeña y mediana empresa (MIPYME)
+                dedicada a la elaboración y comercialización de yogurt artesanal.
+                Nuestro propósito es ofrecer productos de excelente calidad,
+                elaborados con ingredientes naturales y pensados para brindar una
+                experiencia saludable y deliciosa a nuestros consumidores.
+            </p>
+
+            <p>
+                Nacimos como una iniciativa emprendedora enfocada en satisfacer
+                las necesidades de nuestros clientes mediante sabores innovadores
+                como fresa, mora y aguacate, manteniendo siempre altos estándares
+                de calidad e higiene.
+            </p>
+
+        </section>
+
+        <section class="seccion">
+
+            <h2>Misión</h2>
+
+            <p>
+                Elaborar yogur de alta calidad a partir de ingredientes naturales,
+                ofreciendo sabores innovadores que despierten los sentidos y promuevan
+                una alimentación saludable. Nuestro propósito es satisfacer las
+                expectativas de los clientes mediante productos confiables y deliciosos,
+                mientras adoptamos prácticas responsables que respeten y protejan el
+                medio ambiente.
+            </p>
+
+        </section>
+
+        <section class="seccion">
+
+            <h2>Visión</h2>
+
+            <p>
+                Para el año 2027 seremos reconocidos como una marca latinoamericana
+                destacada por nuestra capacidad de innovar y sorprender al público
+                con sabores únicos, naturales e irresistibles. Nuestros yogures
+                reinventarán el placer de disfrutar un producto auténtico,
+                elaborado con calidad artesanal y pensado para brindar una
+                experiencia sensorial memorable en cada momento.
+            </p>
+
+        </section>
+
+        <section class="seccion">
+
+            <h2>Nuestra Naturaleza Empresarial</h2>
+            <section class="seccion">
+
+   
+
+    <p>
+        Los siguientes logotipos representan la identidad de Yogubeth y reflejan
+        nuestros valores de calidad, innovación y compromiso con la elaboración
+        de yogurt artesanal.
+    </p>
+
+    <div class="logos-container">
+
+        <div class="logo-card">
+            <img src="logo1.jpg" alt="Logo principal Yogubeth">
+            <h3>Logo Principal</h3>
+        </div>
+
+        <div class="logo-card">
+            <img src="logo2.jpg" alt="Logo alternativo Yogubeth">
+            <h3>Logo Alternativo</h3>
+        </div>
+
+    </div>
+
+</section>
+
+            <p>
+                Yogubeth es una MIPYME colombiana enfocada en la producción y
+                comercialización de yogurt artesanal. Trabajamos bajo principios
+                de innovación, calidad, responsabilidad y compromiso con nuestros
+                consumidores, contribuyendo al desarrollo económico local y al
+                fortalecimiento del emprendimiento colombiano.
+            </p>
+
+        </section>
+
+        <section class="seccion">
+
+            <h2>Nuestro Equipo Fundador</h2>
+
+            <div class="tarjetas">
+
+                <div class="tarjeta">
+                    <img src="CRISTOFFER.jpeg" alt="Cristoffer Torres" class="foto">
+                    <h3>Cristoffer Torres</h3>
+                    <p>Fundador</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="YIBETH.jpeg" alt="Yibeth Bernal" class="foto">
+                    <h3>Yibeth Bernal</h3>
+                    <p>Fundadora</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="DANIEL.jpeg" alt="Daniel Tequia" class="foto">
+                    <h3>Daniel Tequia</h3>
+                    <p>Fundador</p>
+                </div>
+
+                <div class="tarjeta">
+                    <img src="SAMUEL.jpeg" alt="Samuel Amortegui" class="foto">
+                    <h3>Samuel Amortegui</h3>
+                    <p>Fundador</p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <div class="contenedor-boton">
+            <a href="index.html" class="boton">Volver al Inicio</a>
+        </div>
+
+    </main>
+
+</body>
+
+</html>

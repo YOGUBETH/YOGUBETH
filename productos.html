@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Productos | Yogubeth</title>
+
+    <link rel="stylesheet" href="css/productos.css">
+</head>
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Segoe UI,sans-serif;
+}
+
+body{
+    background:#f5f8fc;
+}
+
+header{
+    background:#003c7d;
+    color:white;
+    text-align:center;
+    padding:70px 20px;
+}
+
+header h1{
+    font-size:3rem;
+    margin-bottom:15px;
+}
+
+header p{
+    font-size:1.2rem;
+}
+
+.intro{
+    max-width:1000px;
+    margin:50px auto;
+    text-align:center;
+    padding:0 20px;
+}
+
+.intro h2{
+    color:#003c7d;
+    margin-bottom:15px;
+}
+
+.productos{
+    max-width:1200px;
+    margin:auto;
+    padding:30px;
+}
+
+.card{
+    display:flex;
+    align-items:center;
+    gap:40px;
+    background:white;
+    border-radius:20px;
+    margin-bottom:40px;
+    overflow:hidden;
+    box-shadow:0 5px 15px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+}
+
+.card img{
+    width:350px;
+    height:300px;
+    object-fit:cover;
+}
+
+.contenido{
+    padding:20px;
+}
+
+.contenido h2{
+    color:#003c7d;
+    margin-bottom:15px;
+}
+
+.contenido p{
+    margin-bottom:15px;
+}
+
+.contenido ul{
+    padding-left:20px;
+}
+
+.contenido li{
+    margin-bottom:10px;
+}
+
+.beneficios{
+    background:#003c7d;
+    color:white;
+    text-align:center;
+    padding:60px 20px;
+}
+
+.beneficios h2{
+    margin-bottom:30px;
+}
+
+.cajas{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap:20px;
+}
+
+.caja{
+    background:white;
+    color:#003c7d;
+    padding:20px;
+    border-radius:15px;
+    min-width:220px;
+    font-weight:bold;
+}
+
+.volver{
+    text-align:center;
+    margin:50px;
+}
+
+.volver a{
+    background:#003c7d;
+    color:white;
+    text-decoration:none;
+    padding:15px 30px;
+    border-radius:10px;
+}
+
+.volver a:hover{
+    background:#0056b3;
+}
+
+@media(max-width:900px){
+
+    .card{
+        flex-direction:column;
+    }
+
+    .card img{
+        width:100%;
+        height:250px;
+    }
+
+}
+
+</style>
+
+<body>
+
+    <header>
+
+        <h1>Nuestros Productos</h1>
+
+        <p>
+            Descubre los sabores artesanales que hacen única la experiencia Yogubeth.
+        </p>
+
+    </header>
+
+  
+    <section class="intro">
+
+        <h2>Linea Yogur artesanal con fruta</h2>
+          <p>La línea Yogur Artesanal con Fruta de YOGUBETH está elaborada de forma artesanal con ingredientes seleccionados y fruta natural,
+             ofreciendo una alternativa fresca, saludable y de excelente sabor. Sus diferentes sabores combinan calidad, cremosidad y autenticidad,
+              brindando una experiencia única para los consumidores que prefieren productos naturales y menos industrializados.</p>
+    </section>
+
+    <section class="productos">
+
+        <!-- FRESA -->
+
+        <div class="card">
+
+            <img src="FRESA.jpeg" alt="Yogurt de Fresa">
+
+            <div class="contenido">
+
+                <h2>Yogubeth de Fresa</h2>
+
+                <p>
+                    Nuestro sabor tradicional elaborado con fresas seleccionadas.
+                </p>
+
+                <ul>
+                    <li>Ingredientes naturales</li>
+                    <li>Rico en probióticos</li>
+                    <li>Fuente de calcio</li>
+                    <li>Sabor dulce y refrescante</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- MORA -->
+
+        <div class="card">
+
+            <img src="MORA.jpeg" alt="Yogurt de Mora">
+
+            <div class="contenido">
+
+                <h2>Yogubeth de Mora</h2>
+
+                <p>
+                    Un sabor intenso y delicioso con el equilibrio perfecto entre dulzura y frescura.
+                </p>
+
+                <ul>
+                    <li>Antioxidantes naturales</li>
+                    <li>Textura cremosa</li>
+                    <li>Rico en nutrientes</li>
+                    <li>Ideal para cualquier momento</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+        <!-- AGUACATE -->
+
+        <div class="card">
+
+            <img src="AGUACATE.jpeg" alt="Yogurt de Aguacate">
+
+            <div class="contenido">
+
+                <h2>Yogubeth de Aguacate</h2>
+
+                <p>
+                    Nuestro sabor innovador y diferenciador, único en el mercado.
+                </p>
+
+                <ul>
+                    <li>Fuente de grasas saludables</li>
+                    <li>Textura suave y cremosa</li>
+                    <li>Alto valor nutricional</li>
+                    <li>Experiencia de sabor única</li>
+                </ul>
+
+            </div>
+
+        </div>
+        <div class="card">
+
+    <img src="PINA.jpeg" alt="Yogurt de Piña">
+
+    <div class="contenido">
+
+        <h2>Yogubeth de Piña</h2>
+
+        <p>
+            Una combinación tropical y refrescante elaborada con piña natural.
+        </p>
+
+        <ul>
+            <li>Ingredientes naturales</li>
+            <li>Rico en probióticos</li>
+            <li>Fuente de calcio</li>
+            <li>Sabor tropical y refrescante</li>
+        </ul>
+
+    </div>
+
+</div>
+
+<div class="card">
+
+    <img src="DURAZNO.jpeg" alt="Yogurt de Durazno">
+
+    <div class="contenido">
+
+        <h2>Yogubeth de Durazno</h2>
+
+        <p>
+            Delicada mezcla artesanal con el suave y dulce sabor del durazno.
+        </p>
+
+        <ul>
+            <li>Ingredientes naturales</li>
+            <li>Rico en probióticos</li>
+            <li>Fuente de calcio</li>
+            <li>Sabor suave y delicioso</li>
+        </ul>
+
+    </div>
+    
+    
+
+</div>
+
+    </section>
+    
+    <section class="intro">
+
+        <h2>Linea Yogur griego</h2>
+          <p>La línea de yogures griegos de YOGUBETH está elaborada con una textura espesa y cremosa, destacándose por su alto valor nutricional y contenido de proteína. Es una opción saludable y versátil, disponible en combinaciones naturales como chía, miel de abejas,
+             almendras y nueces, además de su versión natural, pensada para quienes buscan un alimento nutritivo, energético y de excelente sabor.</p>
+    </section>
+    <section class="productos">
+
+    <!-- GRIEGO NATURAL -->
+    <div class="card">
+
+        <img src="GRIEGO-NATURAL.jpg" alt="Yogur griego natural">
+
+        <div class="contenido">
+
+            <h2>Yogubeth Griego Natural</h2>
+
+            <p>
+                Yogur griego tradicional, cremoso y sin azúcar añadida.
+            </p>
+
+            <ul>
+                <li>Alto en proteína</li>
+                <li>Sin azúcar añadida</li>
+                <li>Textura espesa y cremosa</li>
+                <li>Ideal para dieta saludable</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- CHÍA -->
+    <div class="card">
+
+        <img src="GRIEGO-CHIA.jpg" alt="Yogur griego con chía">
+
+        <div class="contenido">
+
+            <h2>Yogubeth Griego con Chía</h2>
+
+            <p>
+                Mezcla nutritiva de yogur griego con semillas de chía.
+            </p>
+
+            <ul>
+                <li>Rico en fibra</li>
+                <li>Fuente de omega 3</li>
+                <li>Mejora la digestión</li>
+                <li>Energía saludable</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- MIEL -->
+    <div class="card">
+
+        <img src="GRIEGO-MIEL.jpg" alt="Yogur griego con miel">
+
+        <div class="contenido">
+
+            <h2>Yogubeth Griego con Miel de Abejas</h2>
+
+            <p>
+                Combinación dulce y natural de yogur griego con miel pura.
+            </p>
+
+            <ul>
+                <li>Energía natural</li>
+                <li>Endulzante saludable</li>
+                <li>Rico en proteínas</li>
+                <li>Sabor suave y equilibrado</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+    <!-- FRUTOS SECOS -->
+    <div class="card">
+
+        <img src="GRIEGO-NUECES.jpg" alt="Yogur griego con almendras y nueces">
+
+        <div class="contenido">
+
+            <h2>Yogubeth Griego con Almendras y Nueces</h2>
+
+            <p>
+                Mezcla crocante y nutritiva con frutos secos seleccionados.
+            </p>
+
+            <ul>
+                <li>Grasas saludables</li>
+                <li>Alto contenido energético</li>
+                <li>Textura crocante</li>
+                <li>Ideal como snack saludable</li>
+            </ul>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <section class="beneficios">
+
+        <h2>¿Por qué elegir Yogubeth?</h2>
+
+        <div class="cajas">
+
+            <div class="caja">
+                🌱 Ingredientes naturales
+            </div>
+
+            <div class="caja">
+                🥛 Fuente de calcio
+            </div>
+
+            <div class="caja">
+                ❤️ Beneficia la digestión
+            </div>
+
+            <div class="caja">
+                👨‍👩‍👧‍👦 Perfecto para toda la familia
+            </div>
+
+        </div>
+
+    </section>
+
+    <div class="volver">
+
+        <a href="index.html">Volver al Inicio</a>
+
+    </div>
+
+</body>
+
+</html>
